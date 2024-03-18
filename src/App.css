@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  margin-bottom: 0 !important;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+}
+a{
+  text-decoration: none !important;
+}
+h1{
+  font-size: 3rem !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  letter-spacing: -2px !important;
+}
+h2{
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  letter-spacing: -2px !important;
+}
+h3{
+  font-size: 1.6rem !important;
+  font-weight: 600 !important;
+}
+.short-para {
+  font-size: 1rem !important;
+  font-weight: 400;
+}
+.span-text{
+  color: #D71313;
+  font-size: 16px;
+  font-weight: 500;
+}
+.bg-transparent{
+  background-color: transparent;
+}
+.bg-grey{
+  background-color: #EDEDED;
+}
+.mynavbar{
+  border-top: 1px solid rgba(128, 128, 128, 0.084);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.06);
+}
+.app-btn{
+  background-color: #D71313;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.white-btn{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.bg-overlay{
+  background-image: url(images/header-bg.png);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 110vh;
+  z-index: -1;
+}
+.navbar-elements a{
+  padding: 0px 20px;
+  color: #fff;
+}
+.success-cta{
+  background: linear-gradient(rgba(0, 0, 0, 0.311) , rgba(0, 0, 0, 0.355) ) , url(images/cta.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+/* 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ */
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+  h1{
+    font-size: 2.5rem !important;
+  }
+  p{
+    font-size: 1rem !important;
+  }
+  .bg-overlay{
+    height: 95vh;
+  }
+  .navbar-elements{
+    background: #ffffff2b;
+    border-radius: 10px;
+    margin: 0 !important;
+    margin-bottom: 20px !important;
+  }
+  .navbar-elements a{
+    padding: 10px 10px;
+  }
+}

@@ -14,12 +14,12 @@ const WhoAreWe = () => {
               <Col className="mt-3 mt-lg-0">
                 <span className="span-text text-uppercase">who are we</span>
                 <h2 className="my-2">
-                  Tamil Nadu's Premier Welding Wire Exporters
+                  India's Premier Welding Wire Exporters
                 </h2>
                 <p className="my-2">
                   Experience the difference with Aim Big Exports and discover
                   why we are the preferred choice for welding professionals
-                  across Tamil Nadu and beyond.
+                  across India and beyond.
                 </p>
                 <ul className="my-4">
                   <li>Premium Quality</li>

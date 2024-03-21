@@ -5,6 +5,7 @@ import StandOut from "../components/Home/StandOut";
 import SuccessCTA from "../components/Home/SuccessCTA";
 import PowerProgress from "../components/Home/PowerProgress";
 import TestimonialSwiper from "../components/Home/TestimonialsSwiper";
+import BlogSection from "../components/Home/BlogSection";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <SuccessCTA/>
       <PowerProgress/>
       <TestimonialSwiper/>
+      <BlogSection/>
     </>
   );
 };

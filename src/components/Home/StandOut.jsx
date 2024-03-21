@@ -17,8 +17,8 @@ const StandOut = () => {
     },
     {
       img: card3,
-      title: "Nationwide Distribution",
-      para: " Our reach extends across India, with a robust distribution network ensuring prompt and efficient delivery of our top-quality welding wires to every corner of the country.",
+      title: "International Distribution",
+      para: " Our reach extends across India & beyond, with a robust distribution network ensuring prompt and efficient delivery of our top-quality welding wires to every corner of the world.",
     },
   ];
   return (

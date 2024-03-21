@@ -6,7 +6,7 @@ const HeroSection = () => {
     <>
       <section className="hero">
         <Container>
-          <div className="hero-text w-100 text-center p-lg-5">
+          <div className="hero-text w-100 text-center p-lg-5 p-2">
             <h1 className="px-lg-5">Leading the Way in Welding Wire Manufacturing and Export</h1>
             <p className="text-white px-lg-5">
               Driven by a passion for quality and customer satisfaction, AIM BIG

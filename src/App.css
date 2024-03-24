@@ -77,6 +77,7 @@ h3 {
   height: 110vh;
   z-index: -1;
 }
+
 .navbar-elements a {
   padding: 0px 20px;
   color: #fff;
@@ -124,6 +125,9 @@ h3 {
   }
   .bg-overlay {
     height: 95vh;
+  }
+  .bg-overlay-2{
+    height: 40vh;
   }
   .navbar-elements {
     background: #ffffff2b;

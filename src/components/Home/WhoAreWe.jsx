@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import about from "../../images/home-about.png";
+import { Link } from "react-router-dom";
 const WhoAreWe = () => {
   return (
     <>
@@ -26,9 +27,9 @@ const WhoAreWe = () => {
                   <li>Precision Engineering</li>
                   <li>Custom Solutions</li>
                 </ul>
-                <a href="/about-us" className="app-btn">
+                <Link to="/about-us" className="app-btn">
                   Know More
-                </a>
+                </Link>
               </Col>
             </Row>
           </div>

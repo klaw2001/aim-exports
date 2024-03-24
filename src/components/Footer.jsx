@@ -56,7 +56,7 @@ const Footer = () => {
                     <h6 className="fs-5 pb-4 text-white ">Pages</h6>
                     <ul className="foot-list">
                       <li className="pb-3">
-                        <Link to="/about" className="text-white">
+                        <Link to="/about-us" className="text-white">
                           About
                         </Link>
                       </li>

@@ -6,7 +6,7 @@ const AboutFirst = () => {
   return (
     <section className="py-5 mt-5">
       <Container>
-        <Row className="py-4">
+        <Row className="py-4 row-cols-1 row-cols-md-2">
           <Col>
             <span className="span-text text-uppercase">who are we</span>
             <h2 className="my-2 ">About Aim Exports</h2>

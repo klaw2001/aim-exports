@@ -6,6 +6,7 @@ import BlogSection from "../components/Home/BlogSection";
 import GlobalHero from "../components/GlobalHeroSection/GlobalHero";
 import AboutFirst from "../components/About/AboutFirst";
 import OurValues from "../components/About/OurValues";
+import OurBrands from "../components/About/OurBrands";
 
 const AboutPage = () => {
   return (
@@ -19,6 +20,7 @@ const AboutPage = () => {
       />
       <AboutFirst/>
       <OurValues/>
+      <OurBrands/>
       <SuccessCTA />
       <PowerProgress />
       <TestimonialSwiper />

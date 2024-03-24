@@ -16,10 +16,10 @@ function MyNavbar() {
             navbarScroll
           >
             <NavLink to="/about-us">About</NavLink>
-            <NavLink to="/">Services</NavLink>
-            <NavLink to="/">Portfolio</NavLink>
-            <NavLink to="/">Blog</NavLink>
-            <NavLink to="/">Contact</NavLink>
+            <NavLink to="/services">Services</NavLink>
+            <NavLink to="/gallery">Gallery</NavLink>
+            <NavLink to="/blog">Blog</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
           </Nav>
             <a href="/contact" className="app-btn">
                 Get Quote

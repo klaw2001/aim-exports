@@ -44,12 +44,15 @@ const BlogSection = () => {
           <article className="py-4">
             <Row className="justify-content-center">
               {blogs.map((elem) => (
-                <Col key={elem.id}className="col-12 col-md-4 mb-3 mb-lg-0">
+                <Col key={elem.id} className="col-12 col-md-4 mb-3 mb-lg-0">
                   <Card className="border-0 blog-cards">
                     <Card.Img src={elem.img} className="border-0 rounded-0" />
                     <Card.Body>
                       <div className="d-flex gap-3 mt-1 mb-2 align-items-center">
-                        <div className="rounded py-1 px-3" style={{backgroundColor:"#F4F4F4"}}>
+                        <div
+                          className="rounded py-1 px-3"
+                          style={{ backgroundColor: "#F4F4F4" }}
+                        >
                           <span className="short-para">{elem.category}</span>
                         </div>
                         <div className="time-box">
@@ -59,7 +62,9 @@ const BlogSection = () => {
                       <Card.Title>
                         <h3>{elem.title}</h3>
                       </Card.Title>
-                      <Card.Text className="short-para mb-3">{elem.description}</Card.Text>
+                      <Card.Text className="short-para mb-3">
+                        {elem.description}
+                      </Card.Text>
                       <Link className="short-para text-dark">Read More</Link>
                     </Card.Body>
                   </Card>
@@ -67,11 +72,15 @@ const BlogSection = () => {
               ))}
             </Row>
             <div className="w-100 text-center mt-5">
-              <a href="" className="app-btn">View All</a>
+              <a href="" className="app-btn">
+                View All
+              </a>
             </div>
           </article>
         </Container>
       </section>
+
+
     </>
   );
 };

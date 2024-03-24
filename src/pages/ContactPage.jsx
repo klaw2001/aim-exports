@@ -1,5 +1,7 @@
 import React from "react";
 import GlobalHero from "../components/GlobalHeroSection/GlobalHero";
+import FormBox from "../components/Contact/FormBox";
+import EnquiryBox from "../components/Contact/EnquiryBox";
 
 const ContactPage = () => {
   return (
@@ -9,6 +11,8 @@ const ContactPage = () => {
         breadcrumb={"Contact"}
         para={"Reach Out."}
       />
+      <FormBox/>
+      <EnquiryBox/>
     </>
   );
 };

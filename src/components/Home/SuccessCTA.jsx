@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const SuccessCTA = () => {
   return (
@@ -12,7 +13,7 @@ const SuccessCTA = () => {
               Ready to take the next step? Contact us today and let's turn your
               welding projects into triumphs.
             </p>
-            <a href="/contact-us" className="app-btn">Connect Now</a>
+            <Link to="/contact" className="app-btn">Connect Now</Link>
           </div>
         </Container>
       </section>
